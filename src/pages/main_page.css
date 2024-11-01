@@ -1,0 +1,19 @@
+.MainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    /* justify-items: left; */
+    
+}
+.AnotherContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.LeaderBoardContainer{
+    width: 15%;
+    /* justify-self: center; */
+}
+.spacer{
+    width: 10%;
+}

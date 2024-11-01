@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 35%; */
+    /* margin-top: 8%; */
+}
+.InfoBlock{
+    display: flex;
+    flex-direction: column;
+}
+.TextBlock{
+    display: flex;
+    flex-direction: column;
+}
+.ButtonContainer{
+    margin-right: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* position: relative; */
+    /* left: -5%; */
+    
+}
+
+.LikeButton,
+.DislikeButton,
+.ReportButton {
+    padding: 1%;
+    width: 15%;
+    border-radius: 10%;
+}
+
+
+
+.LikeButton {
+    background-color: greenyellow;
+}
+
+.DislikeButton {
+    background-color: red;
+}
+
+.ReportButton {
+    background-color: aqua;
+}

@@ -1,0 +1,36 @@
+.Search{
+    /* margin-left: 35%; */
+    width: auto;
+    /* margin-top: 0%;
+    margin-right: 35%; */
+    text-align: center;  
+    background-color: greenyellow;
+    height: 4%;
+}
+
+.SearchInpurt{
+    text-align: center;
+    /* vertical-align:sub; */
+    font-size: 200%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Text{
+    vertical-align: middle;
+    position: absolute;
+    margin: auto 0;
+
+}

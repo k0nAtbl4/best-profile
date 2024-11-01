@@ -1,0 +1,9 @@
+.LeaderBar{
+    background-color: aqua;
+    color: green;
+    border-color: yellow;
+    /* position: absolute; */
+    /* width: 17%; */
+    text-align: center;
+    height: 100vh;
+}
