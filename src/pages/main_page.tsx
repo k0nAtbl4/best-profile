@@ -7,6 +7,7 @@ import "./main_page.css";
 
 const Main_page = () => {
     const [user,setUser] = useState(null);
+    // console.log()
     return (
         <div className="MainContainer">
             <div className="LeaderBoardContainer">

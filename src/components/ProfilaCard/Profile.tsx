@@ -30,7 +30,7 @@ function Profile() {
                 <div className="profile-container">
                     <img className="Avatar" src={NotFoundAvatar} />
                     <div className="ButtonContainer">
-                        <button className="LikeButton">Like</button>
+                        <button className="LikeButton" onClick={()=>{alert("ЕГОР АХХАХАХАХ ФЕНИКС")}}>Like</button>
                         <button className="DislikeButton">Dislike</button>
                         <button className="ReportButton">Report</button>
                     </div>
