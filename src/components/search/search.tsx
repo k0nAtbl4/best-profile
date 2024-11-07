@@ -15,13 +15,15 @@ function Search() {
     }
     return (
         <div className="Search">
-            <input onChange={
-                (element) => {
-                    handleChange(element);
-                }
-            }
+            <input
                 className="SearchInpurt"
-                placeholder="Search" />
+                placeholder="Search"
+                onChange={
+                    (element) => {
+                        handleChange(element);
+                    }
+                }
+            />
             <h1>
                 {searchText}
             </h1>

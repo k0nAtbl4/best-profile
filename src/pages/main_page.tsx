@@ -16,6 +16,7 @@ const Main_page = () => {
             <div className="AnotherContainer">
                 <Search />
                 <Profile />
+                <div className="spacer2"/>
             </div>
             <div className="spacer">
 

@@ -1,16 +1,35 @@
 .container {
     display: flex;
     flex-direction: row;
-    /* margin-left: 35%; */
-    /* margin-top: 8%; */
+    outline: 5px solid;
+    outline-color: #2a2e35;
+    background-color:#2a2e35;
+    padding: 5%;
+    width: auto;
 }
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/* .Avatar{
+    width: 80%;
+} */
 .InfoBlock{
     display: flex;
     flex-direction: column;
+    width: 70%;
 }
 .TextBlock{
     display: flex;
+    ;
     flex-direction: column;
+    text-align: center;
+    width: 100%;
+    font-size: 200%;
+    color: #cccfde
+    /* text-shadow: 5px; */
+    
 }
 .ButtonContainer{
     margin-right: 0%;
@@ -27,7 +46,7 @@
 .ReportButton {
     padding: 1%;
     width: 15%;
-    border-radius: 10%;
+    border-radius: 8px;
 }
 
 

@@ -1,19 +1,26 @@
 .Search{
+    background-color: #23272e;
+    border-radius: 10px;
+    /* background-size: 5px; */
+
     /* margin-left: 35%; */
+
     width: auto;
     /* margin-top: 0%;
     margin-right: 35%; */
     text-align: center;  
-    background-color: greenyellow;
-    height: 4%;
+    background-color: #6290eb;
+    height: 4.5%;
 }
 
 .SearchInpurt{
     text-align: center;
     /* vertical-align:sub; */
-    font-size: 200%;
-    
+    width: 100%;
+    font-size: 230%;
+    color: green;
 }
+
 
 
 

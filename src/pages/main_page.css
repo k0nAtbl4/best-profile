@@ -8,7 +8,11 @@
 .AnotherContainer{
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
+    max-width: 80%;
+}
+.spacer2{
+    height: 15%;
 }
 .LeaderBoardContainer{
     width: 15%;
